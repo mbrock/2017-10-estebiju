@@ -1,0 +1,90 @@
+* { font: 18px/1.5 helvetica; font-family: helvetica, arial, sans-serif }
+
+body, section { background: ghostwhite }
+
+article {
+  background: black;
+  background-image: url(skull.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+* { color: white; vertical-align: top; margin: 0 }
+h1, h3 { font-weight: bold }
+h2 { font-family: times, "times new roman", serif }
+h1, h2, h3 { display: inline-block }
+
+h1 {
+  font-size: 2.25rem;
+  letter-spacing: -.07rem;
+}
+
+header, footer { text-align: center }
+header {
+  position: absolute;
+  top: 8vh;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 10vh;
+  width: 100%;
+}
+
+footer > * {
+  background: white;
+  color: black;
+  background: black;
+  color: white;
+  opacity: 1.9;
+  padding: 0 .5rem;
+  border-radius: .5rem;
+}
+
+h2 { margin-bottom: .5rem }
+h2 { background: white; color: black; }
+
+h1 { transform: rotateZ(-1deg) }
+xh2 { transform: rotateZ(2deg) }
+xh3 { transform: rotateZ(-1deg) }
+
+p, ul {
+  max-width: 31em;
+  margin: 1.5rem auto;
+}
+
+
+a, b { font-family: inherit; }
+b { font-weight: bold }
+a {
+  text-decoration: none;
+  border-bottom: 1px solid currentcolor;
+}
+
+section * { color: black }
+
+ul { list-style-type: none }
+.time { font-weight: bold; padding-right: .5rem }
+
+section {
+  padding: 1.5rem;
+  vertical-align: top;
+}
+
+section * {
+  font-size: 0.9rem;
+}
+
+p:first-child { margin-top: 0 }
+p:last-child { margin-bottom: 0 }
+
+@media (min-width: 800px) {
+  section {
+    columns: 2;
+  }
+}
+
+ul { padding-left: 0; }
